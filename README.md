@@ -1,4 +1,4 @@
-# Task Manager API
+# Task Management API
 
 This is a basic RESTful API for managing a collection of tasks. It allows users to perform CRUD (Create, Read, Update, Delete) operations on tasks.
 
