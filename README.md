@@ -10,6 +10,8 @@ task-manager-api
 │   ├── app.js
 │   ├── controllers
 │   │   └── taskController.js
+│   ├── middlewares
+│   │   └── validateTask.js
 │   ├── models
 │   │   └── taskModel.js
 │   ├── routes
@@ -19,6 +21,7 @@ task-manager-api
 ├── package.json
 ├── .env
 └── README.md
+
 ```
 
 ## Getting Started
@@ -62,6 +65,12 @@ The API will be available at `http://localhost:3000`.
 
 ### Sample Requests
 
+### API DOCUMENTATION
+
+```
+https://documenter.getpostman.com/view/38073028/2sAYQXnsHA
+```
+
 #### Get All Tasks
 ```
 GET /tasks
@@ -77,4 +86,20 @@ Content-Type: application/json
   "description": "Task description"
 }
 ```
+### Introduction:
+Briefly describe the API and its purpose (e.g., task management system).
+
+## Design Choices:
+Explain your choice of frameworks (e.g., Express for simplicity and scalability).
+Describe the in-memory database simulation (for faster prototyping).
+
+## Implementation Details:
+Include code snippets or pseudocode for key functionalities.
+Provide a flowchart or diagram (if needed) to explain request handling.
+
+## Testing:
+Describe how you tested each endpoint using Postman.
+
+## Conclusion:
+Summarize the design's scalability, simplicity, and future extension possibilities.
 
